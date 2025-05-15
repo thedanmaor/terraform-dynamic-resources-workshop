@@ -1,14 +1,14 @@
 # Variables
 variable "my_ip" {
-  description = "Your IP address for security group access"
-  default     = "104.30.164.5"
+  description = "Your IP address for security group access, dont add /32"
+  default     = ""
   type        = string
 }
 
 variable "instance_count" {
   description = "Number of EC2 instances to create"
   type        = number
-  default     = 1
+  default     = 2
 }
 
 variable "region" {
@@ -18,7 +18,8 @@ variable "region" {
 }
 
 variable "prefix" {
-  description = "Prefix to prepend to all resource names"
+  description = "your name"
   type        = string
-  default     = "dan.maor"
+  default     = "first.last"
 }
+

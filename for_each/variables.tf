@@ -18,7 +18,7 @@ variable "region" {
 }
 
 variable "prefix" {
-  description = :"your name"
+  description = "your name"
   type        = string
   default     = "first.last"
 }
