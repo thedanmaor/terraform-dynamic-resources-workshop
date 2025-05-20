@@ -1,6 +1,11 @@
 # terraform-dynamic-resources-workshop
 This repository hold example code for a `count` based deployment and a `for_each` based deployment in order to teach about the differences between them and which one fits which use cases.
 
+
+## Pre-requisites
+- awscli and terraform installed locally on your mac
+- awscli configured for sso use
+  
 ## Usage
 1. cd count \ for_each
    * populate variables.tf
